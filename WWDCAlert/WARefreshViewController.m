@@ -95,7 +95,7 @@
     }
 
 	// Current page has a single 2013 reference related to copyrights. If it changes, be noisy.
-	if ([newPage rangeOfString:@"2013"].location != 6176) {
+	if ([newPage rangeOfString:@"2013"].location != 6167) {
 		[self alert:NO];
 		[self alert:NO];
 		[self alert:NO];
